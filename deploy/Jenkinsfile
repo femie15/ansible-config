@@ -12,7 +12,7 @@
       }
     }
 
-    stage('Build') {
+    stage('Package') {
       steps {
         script {
           sh 'echo "Building Stage"'
@@ -20,7 +20,7 @@
       }
     }
 
-    stage('Test') {
+    stage('Deploy') {
       steps {
         script {
           sh 'echo "Testing Stage"'
